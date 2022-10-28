@@ -9,8 +9,7 @@ const Courses = () => {
   return (
     <Container className="mb-5">
       <Row>
-       
-
+        <h3> All Courses are here </h3>
         <Col lg="10">
           <div className="row row-cols-1 rounded row-cols-md-2 g-4 mt-5">
             {courses.map((course) => (

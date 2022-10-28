@@ -11,19 +11,19 @@ import { useState } from "react";
 
 const Header = () => {
   const { user, logOut } = useContext(AuthContext);
-  const [toggle, setToggle] = useState("dark");
+  const [toggle, setToggle] = useState("Dark");
 
   const handleToggle = () => {
-    if (toggle === "dark") {
-      setToggle("light");
+    if (toggle === "Dark") {
+      setToggle("Light");
     } else {
-      setToggle("dark");
+      setToggle("Dark");
     }
   };
 
   const handleLogout = () => {
     logOut()
-      .then(() => {})
+      .then(() => { })
       .catch((error) => console.error(error.message));
   };
 
