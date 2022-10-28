@@ -21,7 +21,7 @@ const Faq = () => {
       <Accordion.Item eventKey="2">
         <Accordion.Header>3. Are there discounts, scholarships, or payment plans available?</Accordion.Header>
         <Accordion.Body>
-          <p>Discounts are available for 18+ hour courses. Certificate programs are heavily discounted packages and are not eligible for discounts. Payment plans are available for certain programs. For more information contact us with official number.</p>
+          <p>Discounts are available for 18+ hour courses. Certificate programs are heavily discounted packages and are not eligible for discounts. Payment plans are available for certain programs. For more information contact us with official number. +880134-56789</p>
         </Accordion.Body>
       </Accordion.Item>
 
