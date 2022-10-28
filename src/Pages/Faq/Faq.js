@@ -8,7 +8,7 @@ const Faq = () => {
       <Accordion.Item eventKey="0">
         <Accordion.Header>1. How much time to finish the course?</Accordion.Header>
         <Accordion.Body>
-          <p> This course is basic to Advanced. As per our system our course duration is six months.  </p>
+          <p> This is on of the best learning platform in our country. This course is basic to Advanced. As per our system our course duration is six months.  </p>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
