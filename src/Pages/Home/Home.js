@@ -30,6 +30,9 @@ const Home = () => {
                     />
                 </Carousel.Item>
             </Carousel>
+            <footer className='text-center text-white p-1 bg-secondary rounded'>
+                <small>All reserved right @Nazmus Sakib </small> 
+            </footer>
         </div>
     );
 };
